@@ -1,4 +1,5 @@
 import mssql from 'mssql'
+import { registerNewUser } from './registrationController'
 
 
 const res = {
@@ -32,7 +33,7 @@ describe("Registration Controller", ()=>{
             })
 
         })
-        await createProject(req,res)
+        await registerNewUser(req,res)
         
         expect(res.json).toHaveBeenCalledWith({
                 message: "User added successfully"
