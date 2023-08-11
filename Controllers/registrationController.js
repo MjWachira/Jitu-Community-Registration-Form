@@ -25,7 +25,7 @@ const registerNewUser = async(req, res)=>{
         
         })  
         }else{
-            return res.json({message: "creation failed"})
+            return res.json({message: "user not registered"})
         }   
     } catch(error){
         return res.json({error})
