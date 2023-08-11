@@ -1,0 +1,19 @@
+.app{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+.register{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.view-registered{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
