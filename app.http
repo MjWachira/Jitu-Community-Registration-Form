@@ -1,0 +1,13 @@
+
+
+POST http://localhost:4200/register
+Content-Type: application/json
+
+{
+    "fname": "John  Wachira",
+    "email": "john.wachira@thejitu.com",
+    "corhort": "17",
+    "graduationdate": "2023/7/25"
+}
+
+
