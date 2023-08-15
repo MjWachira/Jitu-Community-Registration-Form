@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>All Corhorts Registration Form</title>
+</head>
+<body>
+    <div class="main">
+        <h1>THE JITU COMUNITY</h1>
+        <div class="app">
+            <div class="register">
+                <div>
+                    <h1>Register</h1>
+                </div>
+                <label id="notifications-reg"></label>
+                <form class="form" action="" method="">
+                    <label for="">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Full Name">
+                    <label for="">Enter a Jitu Email</label>
+                    <input type="email" id="email" placeholder="someone@thejitu.com" required pattern="[a-zA-Z0-9]+[.]+[a-zA-Z0-9]+@thejitu\.com">
+                    <label for="">Corhort Number</label>
+                    <input type="number" id="cohortNumber" placeholder="Cohort Number">
+                    <label for="">Graduation Date</label>
+                    <input type="date" id="graduationDate" placeholder="Graduation Date">
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+            <div class="view-registered" id="dataDisplay">
+                <h2>View Registered Members</h2>
+    
+            </div>
+        </div>
+    </div>
+    
+   <script src="main.js"></script>
+</body>
+</html>
