@@ -1,0 +1,4 @@
+CREATE OR ALTER PROCEDURE getAllUsersProc
+AS
+BEGIN SELECT * FROM registrationTable
+END

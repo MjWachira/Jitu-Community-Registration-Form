@@ -11,4 +11,4 @@ END
 
 SELECT * FROM registrationTable;
 
--- DROP TABLE registrationTable;
+DROP TABLE registrationTable;
